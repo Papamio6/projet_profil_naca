@@ -9,8 +9,13 @@ def calcul_profil(datas): #datas composées de t, nbre de points et c
     t= datas[0]
     nbre_points_x = datas[1]
     c = datas[2]
+    mode = datas[3]
 
-    X_c = np.linspace(0,1,nbre_points_x)
+    if mode ==1:
+        X_c = np.linspace(0,1,nbre_points_x)
+    else:
+       theta =  np.linspace(0,np.pi,nbre_points_x)
+       X_c = [0.5*(1-np.cos(theta)) for theta in theta]
     Y_c_up = []
     for x_c in X_c:
         y_c = 5*t*(0.2969*np.sqrt(x_c)-0.1260*x_c-0.3516*x_c**2+0.2843*x_c**3-0.1036*x_c**4)

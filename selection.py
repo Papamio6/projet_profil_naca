@@ -17,4 +17,10 @@ def menu_accueil():
     print("entrer le nombre de points pour tracer la corde :")
     nbre_points_x = int(input('-->'))
 
-    return(epaisseur_relative,nbre_points_x,corde_longueur)
+
+    #Mode linéaire(1) ou non-uniforme(2) :
+    print("entrer le nombre de points pour tracer la corde :")
+    mode = int(input('-->'))
+
+
+    return(epaisseur_relative,nbre_points_x,corde_longueur,mode)
