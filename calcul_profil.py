@@ -4,7 +4,11 @@ les points composant la corde, l'intrados et l'extrados d'un profil d'aile spéc
 import numpy as np
 
 
-def calcul_profil(t,nbre_points_x,c):
+def calcul_profil(datas): #datas composées de t, nbre de points et c
+
+    t= datas[0]
+    nbre_points_x = datas[1]
+    c = datas[2]
 
     X_c = np.linspace(0,1,nbre_points_x)
     Y_c_up = []
