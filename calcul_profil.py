@@ -4,7 +4,7 @@
 # Emilio Scottu
 # MGA-802
 
-# Ce code permet de calculer et de retourner
+# Ce code est composé d'une fonction permettant de calculer et de retourner
 # les points composant la corde, l'intrados et l'extrados d'un profil d'aile spécifié
 
 

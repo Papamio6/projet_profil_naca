@@ -4,8 +4,8 @@
 # Emilio Scottu
 # MGA-802
 
-# Ce script permet de récupérer les données d'un profil NACA00XX auprès
-# de l'utilisateur
+# Ce script, composé d'une fonction, permet de récupérer les données d'un
+# profil NACA00XX auprès de l'utilisateur
 
 
 # -------------------------------------------------------------------------- #
