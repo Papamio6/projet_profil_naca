@@ -22,8 +22,11 @@ from affichage import affichage
 # -------------------------------------------------------------------------- #
                               #INSTRUCTIONS#
 # -------------------------------------------------------------------------- #
+# On récupère les données décrivant le profil auprès de l'utilisateur
 donnees_profil = menu_accueil()
 
+# On calcule les coordonnées des points pour tracer y_up, y_down et x_c
 listes_points = calcul_profil(donnees_profil)
 
+# On lance l'affichage du graphique
 affichage(listes_points, donnees_profil)
