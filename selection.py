@@ -19,13 +19,13 @@ def menu_accueil():
         chiffre_profil = (input('-->'))
         if(chiffre_profil.isnumeric() and len(chiffre_profil) ==2):
             verrou+=1
-            chiffre_profil = int(chiffre_profil)
             print(" _______________________________________")
             print(f"|      Vous avez entré le profil :      |")
             print(f"|             NACA 00{chiffre_profil}                 |")
             print("|_______________________________________|")
-
+            chiffre_profil = int(chiffre_profil)
             epaisseur_relative = chiffre_profil/100
+
         else:
             print(" _______________________________________")
             print("|     Entrez seulement deux chiffres    |")
